@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
 
@@ -11,15 +13,19 @@
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <nav class="header__inner-logo"></nav>
+          <nav class="menu">
+            <a class="logo" href="#"><img src="/app/images/logo.png" alt="logo"></a>
+            <ul class="menu__list">
+              <li class="menu__list-item"><a class="menu__list-link" href="#"></a>О нас</li>
+              <li class="menu__list-item"><a class="menu__list-link" href="#"></a>Как начать?</li>
+              <li class="menu__list-item"><a class="menu__list-link" href="#"></a>Калькулятор заработка</li>
+              <li class="menu__list-item"><a class="menu__list-link" href="#"></a>Направления деятельности</li>
+              <li class="menu__list-item"><a class="menu__list-link" href="#"></a>Ответы на вопросы</li>
+            </ul>
+            <button class="btn"><input class="btn__item" type="text"></button>
+          </nav>
         </div>
       </div>
     </header>
-    <div class="wrapper">
-      <main class="main"></main>
-      <footer class="footer"></footer>
-    </div>
-
-    <script src="js/main.min.js"></script>
   </body>
 </html>
