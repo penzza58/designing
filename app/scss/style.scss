@@ -8,5 +8,43 @@
  .header{
      &__inner{
          display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 56px;
+     }
+
+     .logo{
+        padding-right: 18px;
+     }
+
+    &__btn{
+        width: 132px;
+        height: 32px;
+        background: #0074D9;
+        border-radius: 3px;
+        border: none;
+    }
+    .btn__item-little{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 19.25px;
+        padding: 6.5px 13px;
+        background-color: transparent;
+        border: none;
+        color: #fff;
+      }
+ }
+
+ .menu{
+     padding-left: 3px;
+     &__list{
+         display: none;
+     }
+
+     &__list-link{
+         @extend %title-font;
      }
  }
+  
